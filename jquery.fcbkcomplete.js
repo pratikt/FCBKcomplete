@@ -187,7 +187,7 @@
           }
         });
         
-        input.blur( function() {
+        /*input.blur( function() {
           isactive = false;
           if (complete_hover) {
             complete.fadeOut("fast");
@@ -202,7 +202,7 @@
               addItem(option.text(), option.attr("rel"), 0, 0, 1);
             }
           }
-        });
+        });*/
         
         holder.click( function() {
           if (options.input_min_size < 0 && feed.length) {
